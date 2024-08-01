@@ -1,0 +1,26 @@
+sku,product_name,description,price,stock,max_quantity
+SKU006,Wireless Mouse,Ergonomic wireless mouse with customizable buttons,25.99,150,50
+SKU007,LED Monitor,27-inch LED monitor with 4K resolution,299.99,80,20
+SKU008,Mechanical Keyboard,Backlit mechanical keyboard with RGB lighting,89.99,60,30
+SKU009,USB-C Hub,Multi-port USB-C hub with HDMI and Ethernet,39.99,120,40
+SKU010,Noise-Cancelling Headphones,Over-ear headphones with active noise cancellation,199.99,90,25
+SKU011,Smartphone Stand,Adjustable stand for smartphones and tablets,15.99,200,100
+SKU012,Portable SSD,1TB portable SSD with fast transfer speeds,149.99,75,30
+SKU013,Wireless Charger,Qi-compatible wireless charging pad,29.99,140,50
+SKU014,External Hard Drive,2TB external hard drive for additional storage,109.99,85,20
+SKU015,Webcam,HD webcam with built-in microphone,49.99,110,35
+SKU016,Bluetooth Speaker,Portable Bluetooth speaker with high-quality sound,69.99,95,40
+SKU017,Game Controller,Wireless game controller compatible with PC and consoles,59.99,130,60
+SKU018,Smart Home Hub,Central hub for managing smart home devices,119.99,65,25
+SKU019,Digital Camera,Compact digital camera with 20MP resolution,299.99,50,15
+SKU020,Action Camera,Waterproof action camera with 4K video recording,249.99,70,20
+SKU021,Smartwatch,Smartwatch with fitness tracking and notifications,179.99,85,30
+SKU022,Router,High-speed router with advanced security features,89.99,100,40
+SKU023,Fitness Tracker,Activity tracker with heart rate monitoring,59.99,130,50
+SKU024,Power Bank,10,000mAh power bank for charging devices on the go,29.99,160,60
+SKU025,Tablet,10.5-inch tablet with 64GB storage and stylus support,349.99,45,10
+SKU026,Wireless Earbuds,True wireless earbuds with noise cancellation,129.99,110,50
+SKU027,Desk Lamp,LED desk lamp with adjustable brightness,39.99,140,45
+SKU028,Printer,All-in-one printer with wireless connectivity,149.99,55,20
+SKU029,Smart Thermostat,Programmable thermostat with smart home integration,199.99,60,25
+SKU030,Electric Kettle,Stainless steel electric kettle with fast boiling,34.99,125,50

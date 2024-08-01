@@ -1,0 +1,26 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "81:81"
+    restart: always
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    restart: always
+
+  postgres:
+    container_name: gida-postgres
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_DB: "gida_db"
+    ports:
+      - "5339:5432"
+    restart: always

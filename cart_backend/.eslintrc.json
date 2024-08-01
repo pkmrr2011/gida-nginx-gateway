@@ -1,0 +1,42 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier", "import"],
+  "globals": {
+    "process": "readonly"
+  },
+  "rules": {
+    "import/no-unresolved": "error",
+    "no-console": "warn",
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "class", "next": "*" },
+      { "blankLine": "always", "prev": "block-like", "next": "*" },
+      { "blankLine": "always", "prev": "function", "next": "*" },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "all",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+
+    // Turn on prettier rules
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "comma-dangle": ["error", "only-multiline"]
+  }
+}
