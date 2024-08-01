@@ -1,9 +1,0 @@
-[submodule "gida_auth_backend"]
-	path = gida_auth_backend
-	url = https://pkmrr2011/gida_auth_backend
-[submodule "gida_cart_backend"]
-	path = gida_cart_backend
-	url = https://pkmrr2011/gida_cart_backend
-[submodule "gida_product_backend"]
-	path = gida_product_backend
-	url = https://pkmrr2011/gida_product_backend
